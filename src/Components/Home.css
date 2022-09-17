@@ -1,0 +1,28 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.home_guitar {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../Assets/guitar.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h1_home {
+    color: #fff;
+    font-size: 70px;
+}
+
+.h2_home {
+    color: #fff;
+}
+
+.button_info {
+    z-index: 1;
+}

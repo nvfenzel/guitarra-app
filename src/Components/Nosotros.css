@@ -1,0 +1,145 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.nosotros_body{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+    align-items: center;
+}
+
+.buttton_metodo {
+    z-index: -100;    
+}
+
+.nosotros_backgrounds{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.bienvenido {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 337px;
+    margin-bottom:50px ;
+    margin: 20px;
+}
+
+.bienvenido p {
+    color: grey;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.bienvenido h3 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+.guillermo{
+    width: 500px;
+}
+
+.guillermo img {
+    width: 500px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.bienvenido h4{
+    color: #d79c5a;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.Doughnut{
+    width: 300px;
+}
+
+.grafico {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 100vw;
+    /* margin-bottom: 30px; */
+    flex-wrap: wrap;
+}
+
+.grafico h2{
+    font-size: 30px;
+    color: #212529;
+    margin: 60px 60px 0px 0px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.las_clases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.las_clases p{
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+.cajas {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    border: hsl(211, 23%, 44%, 0.4) 1px solid;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+.cajas h3{
+    color: #212529;
+    font-size: 100px;
+    margin: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.text_grafico {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.text_grafico p {
+    /* margin-left: 60px; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: grey;
+    width: 300px;
+    text-align: justify;
+}

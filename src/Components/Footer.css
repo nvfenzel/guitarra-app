@@ -1,0 +1,22 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.footer {
+    height: 50px;
+    background-color: hsl(0, 1%, 38%, 0.3);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer_a {
+    text-decoration: none;
+    color: #000
+}

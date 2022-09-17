@@ -1,0 +1,61 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.mimetodo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.palabras h4{
+    font-size: 30px;
+    margin: 0px;
+    font-family: inherit;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.palabras p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: grey;
+}
+
+.palabras {
+    width: 400px;
+    margin-top: 70px;
+}
+
+.cards {
+    width: 250px;
+    height: 250px;
+    border: hsl(211, 23%, 44%, 0.4) 1px solid;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.caja_cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    /* width: 100vw; */
+    justify-content: space-evenly;
+    max-width: 700px;
+
+}
+
+.img_svg {
+    width: 100px;
+}
+
+.caja_cards h5 {
+    font-size: 30px;
+    margin: 0;
+}
